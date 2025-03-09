@@ -36,7 +36,7 @@ public class OrderController {
 
   }
 
-  @PostMapping("/order")
+  @PostMapping("/order")// submit order
   public OrderResponse submitOrder(@RequestBody OrderRequest orderRequest) {
 
     OrderEntity orderEntity = new OrderEntity();
