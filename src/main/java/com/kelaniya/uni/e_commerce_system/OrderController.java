@@ -55,7 +55,7 @@ public class OrderController {
     orderResponse.orderNumber = orderNumber;
     orderResponse.customerNumber = orderRequest.customerId;
     orderResponse.lineItems = orderRequest.lineItems;
-    return orderResponse;
+    return orderResponse; //save the order in the database
 
   }
 
